@@ -77,6 +77,6 @@ fn main() {
     add_to_waitlist();
     let secret_number = rand::thread_rng().gen_range(1, 101);
     println!("secret_number: {}",secret_number);
-    println!("external-mod: {}",external_mod::external_mod::message());
+    println!("external-mod: {}",external_mod::message());
 
 }
