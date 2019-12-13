@@ -18,14 +18,14 @@ fn main() {
 
     match v.get(2) {
         Some(third) => println!("third is: {}", third),
-        None => println!("None")
+        None => println!("None"),
     }
 
     for i in &v {
         println!("{}", i);
     }
     let mut v = vec![100, 32, 57];
-    for  i in &mut v {
+    for i in &mut v {
         *i += 10;
         println!("{}", i);
     }
@@ -41,7 +41,7 @@ fn main() {
         SpreadsheetCell::Float(10.12),
     ];
 
-    impl SpreadsheetCell{
+    impl SpreadsheetCell {
         fn value(&self) -> String {
             // String::from("sdgdsg")
             "sgdjkslgd".to_owned()
@@ -57,19 +57,19 @@ fn main() {
     let mut s = String::new();
     let data = "initial contents";
     s = data.to_string();
-    println!("{}",s);
+    println!("{}", s);
 
-    println!("{}",String::from("السلام عليكم"));
-    println!("{}",String::from("Dobrý den"));
-    println!("{}",String::from("Hello"));
-    println!("{}",String::from("שָׁלוֹם"));
-    println!("{}",String::from("नमस्ते"));
-    println!("{}",String::from("こんにちは"));
-    println!("{}",String::from("안녕하세요"));
-    println!("{}",String::from("你好"));
-    println!("{}",String::from("Olá"));
-    println!("{}",String::from("Здравствуйте"));
-    println!("{}",String::from("Hola"));
+    println!("{}", String::from("السلام عليكم"));
+    println!("{}", String::from("Dobrý den"));
+    println!("{}", String::from("Hello"));
+    println!("{}", String::from("שָׁלוֹם"));
+    println!("{}", String::from("नमस्ते"));
+    println!("{}", String::from("こんにちは"));
+    println!("{}", String::from("안녕하세요"));
+    println!("{}", String::from("你好"));
+    println!("{}", String::from("Olá"));
+    println!("{}", String::from("Здравствуйте"));
+    println!("{}", String::from("Hola"));
 
     let mut s = String::from("foo");
     s.push_str("bar");
@@ -79,8 +79,7 @@ fn main() {
     let mut s1 = String::from("foo");
     let s2 = "bar";
     s1.push_str(s2);
-    println!("s1 is {}, s2 is {}", s1,s2);
-
+    println!("s1 is {}, s2 is {}", s1, s2);
 
     let s1 = String::from("Hello, ");
     let s2 = String::from("world!");
@@ -92,7 +91,7 @@ fn main() {
     println!("answer is: {}", answer);
     let answer = hello.chars();
 
-    for ch in answer{
+    for ch in answer {
         print!("{}-", ch);
     }
 
@@ -104,7 +103,7 @@ fn main() {
     println!("{:?}", scores);
     let key = String::from("Blue");
     let val = scores.get("Blue").unwrap();
-    println!("{}", val );
+    println!("{}", val);
 
     let mut number = HashMap::new();
     number.insert(1, "Um");
