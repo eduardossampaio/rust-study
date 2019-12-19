@@ -1,0 +1,1 @@
+{"rustc":6484268071756738333,"features":"[]","target":5728196384668463687,"profile":8248545651247322450,"path":1036222786711178230,"deps":[[10768941323602819141,"minigrep",false,12712256225759668663]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/minigrep-42e3d08a294c0b9d/dep-test-bin-minigrep-42e3d08a294c0b9d"}}],"rustflags":[],"metadata":15001448539459776603}

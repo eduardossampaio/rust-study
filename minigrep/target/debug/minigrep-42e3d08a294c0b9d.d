@@ -1,0 +1,1 @@
+/Users/eduardosoares/Documents/github/rust-study/minigrep/target/debug/minigrep-42e3d08a294c0b9d: /Users/eduardosoares/Documents/github/rust-study/minigrep/src/lib.rs /Users/eduardosoares/Documents/github/rust-study/minigrep/src/main.rs
