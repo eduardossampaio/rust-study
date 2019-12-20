@@ -3,8 +3,8 @@ use std::process;
 mod lib;
 use lib::InputParams;
 fn main() {
-    let args: Vec<String> = env::args().collect();
-    let input: InputParams = InputParams::new(&args).unwrap_or_else(|err| {
+    // let args: Vec<String> = env::args().collect();
+    let input: InputParams = InputParams::new(env::args()).unwrap_or_else(|err| {
         println!("Problem parsing arguments: {}", err);
         process::exit(1);
     });
